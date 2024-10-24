@@ -1,33 +1,44 @@
 /* faq.css */
+/* External CSS file for FAQ page */
+body {
+    background: linear-gradient(135deg, #D187F5, #FFFFFF);
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+#content {
+    margin-left: 220px;
+    padding: 20px;
+    width: calc(100% - 220px);
+}
 
 .faq-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    margin-top: 20px;
 }
 
 .faq-item {
-    margin-bottom: 15px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
 
 .faq-question {
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-}
-
-.faq-toggle {
-    font-size: 20px;
     font-weight: bold;
-    transition: transform 0.3s ease;
 }
 
 .faq-answer {
     display: none;
     margin-top: 10px;
-    font-size: 16px;
+    color: #333;
+}
+
+.faq-toggle {
+    cursor: pointer;
+    font-weight: bold;
 }

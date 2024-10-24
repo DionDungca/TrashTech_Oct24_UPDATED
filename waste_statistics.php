@@ -70,11 +70,11 @@ $page_content = '
 
         /* Content section (where the charts are displayed) */
         #content {
-            margin-left: 280px; /* Increased margin to move content further to the right */
-            margin-top: 10px; /* Added a small space between header and content */
+            margin-left: 220px; /*(Dion) pinalitan ko tong 220*/
+            margin-top: 60px; /* (Dion) from 10 ginawa kong 60, para sa space sa ilalim */
             padding: 20px;
             background: linear-gradient(135deg, #D187F5, #FFFFFF);
-            height: calc(100vh - 80px); /* Full height minus header */
+            height: calc(100vh - 0px); /*(Dion) from 80px to 0px para sagad sa ilalim yung boarder*/
             overflow-y: auto; /* Ensure content scrolls if needed */
             box-sizing: border-box;
         }

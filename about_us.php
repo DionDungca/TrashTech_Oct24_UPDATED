@@ -15,6 +15,9 @@ $page_content = '
             margin: 0;
             padding-top: 60px; /* Adjust this value to match the header height */
             display: flex;
+            background: linear-gradient(135deg, #D187F5, #FFFFFF); /* Add the background gradient */
+            height: 100vh; /* Ensure the background covers the full viewport */
+            box-sizing: border-box;
         }
         #content {
             margin-left: 220px;
@@ -34,5 +37,3 @@ $page_content = '
 
 include 'template.php';
 ?>
-
-

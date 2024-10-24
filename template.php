@@ -79,9 +79,9 @@
             background-color: #575757;
         }
         #content {
-            margin-left: 220px;
+            margin-left: 200px; /*(DION) inedit to para sa margin ng LOGS tiyaka yung ibang gumagamit ng template.php*/
             padding: 20px;
-            width: calc(100% - 220px);
+            width: calc(100% - 200px);
         }
     </style>
 </head>

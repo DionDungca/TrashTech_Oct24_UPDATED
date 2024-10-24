@@ -151,10 +151,11 @@ include 'template.php';
         display: flex;
     }
     #content {
-        margin-left: 280px; /* Shift content more to the right */
+        margin-left: 220px; /* (Dion) from 280 to 220 */
         padding: 20px;
-        width: calc(100% - 280px); /* Adjust content width */
+        width: calc(100% - 0px); /* (Dion) from 280 to 0*/
         background: linear-gradient(135deg, #D187F5, #FFFFFF);
+        min-height: 100vh; /*(Dion) para full yung background color*/
     }
     h1 {
         margin-top: 0;

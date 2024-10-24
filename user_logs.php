@@ -57,14 +57,13 @@ $page_content = '
 
         /* Content area styling */
         .content {
-            position: absolute; /* Absolute positioning for precise layout */
-            top: 80px; /* Adjust for header height */
-            left: 300px; /* Move the content further to the right */
+            margin-left: 0px; /* Adjust this to push content under the sidebar */
             padding: 20px;
             background: linear-gradient(135deg, #D187F5, #FFFFFF);
-            height: calc(100vh - 80px); /* Fill remaining height after header */
-            overflow-y: auto; /* Allow scrolling if needed */
-            width: calc(100% - 300px); /* Adjust width to account for the new left margin */
+            min-height: calc(100vh - 0px); /* Ensure content takes the full viewport height minus header */
+            margin-top: 40px; /* Push content below the fixed header */
+            overflow-y: auto;
+            box-sizing: border-box;
         }
 
         /* Table styling */
